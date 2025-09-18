@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 
 project(lispy LANGUAGES C)
 
+set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_STANDARD 99)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
